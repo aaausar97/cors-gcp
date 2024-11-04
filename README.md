@@ -2,6 +2,11 @@
 
 CREDS TO ORIGINAL CORS-ANYWHERE CREATOR. this repo contains my edits to original cors-anywhere repo to be used on a vm instance on gcp or container image. i had originally used the cors-anywhere repo on a heroku deployed service. i ended up having to move to another service and choose to try google cloud. had to make edits to the original repo to get it to work as seemlessly and deploy correctly.
 
+I also created a Dockerfile and pushed a Docker image to make deployment to GCP even easier.
+
+auqwar/cors-gcp [https://hub.docker.com/repository/docker/auqwar/cors-gcp/general]
+
+here is a running example hosted here currently [as of nov 3 2024]: www.ausar.dev
 
 **CORS Anywhere** is a NodeJS proxy which adds CORS headers to the proxied request.
 
