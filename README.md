@@ -1,6 +1,10 @@
 [![Build Status](https://travis-ci.com/Rob--W/cors-anywhere.svg?branch=master)](https://travis-ci.com/Rob--W/cors-anywhere)
 [![Coverage Status](https://coveralls.io/repos/github/Rob--W/cors-anywhere/badge.svg?branch=master)](https://coveralls.io/github/Rob--W/cors-anywhere?branch=master)
 
+
+CREDS TO ORIGINAL CORS-ANYWHERE CREATOR. this repo contains my edits to original cors-anywhere repo to be used on a vm instance on gcp or container image. i had originally used the cors-anywhere repo on a heroku deployed service. i ended up having to move to another service and choose to try google cloud. had to make edits to the original repo to get it to work as seemlessly and deploy correctly.
+
+
 **CORS Anywhere** is a NodeJS proxy which adds CORS headers to the proxied request.
 
 The url to proxy is literally taken from the path, validated and proxied. The protocol
